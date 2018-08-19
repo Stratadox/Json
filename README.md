@@ -1,5 +1,14 @@
 # Json
 
+[![Build Status](https://travis-ci.org/Stratadox/Json.svg?branch=master)](https://travis-ci.org/Stratadox/Json)
+[![Coverage Status](https://coveralls.io/repos/github/Stratadox/Json/badge.svg?branch=master)](https://coveralls.io/github/Stratadox/Json?branch=master)
+[![Infection Minimum](https://img.shields.io/badge/MinMsi-90-brightgreen.svg)](https://travis-ci.org/Stratadox/Json)
+[![PhpStan Level](https://img.shields.io/badge/phpstan-7-brightgreen.svg)](https://travis-ci.org/Stratadox/Json)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Stratadox/Json/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Stratadox/Json/?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/290169d76374dad329d8/maintainability)](https://codeclimate.com/github/Stratadox/Json/maintainability)
+[![Latest Stable Version](https://poser.pugx.org/stratadox/json/v/stable)](https://packagist.org/packages/stratadox/json)
+[![License](https://poser.pugx.org/stratadox/json/license)](https://packagist.org/packages/stratadox/json)
+
 Json handling library for easily reading from and writing to json strings.
 
 ## Installation
