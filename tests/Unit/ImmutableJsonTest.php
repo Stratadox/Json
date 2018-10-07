@@ -5,7 +5,6 @@ namespace Stratadox\Json\Test\Unit;
 
 use function implode;
 use PHPUnit\Framework\TestCase;
-use stdClass;
 use Stratadox\Json\InvalidJson;
 use Stratadox\Json\ImmutableJson;
 use Stratadox\Json\InvalidOffset;
