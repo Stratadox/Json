@@ -3,6 +3,9 @@ declare(strict_types=1);
 
 namespace Stratadox\Json;
 
+use function json_decode;
+use const JSON_ERROR_NONE;
+use function json_last_error;
 use function json_last_error_msg;
 
 trait JsonDecoding
