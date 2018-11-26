@@ -3,6 +3,11 @@ declare(strict_types=1);
 
 namespace Stratadox\Json;
 
+/**
+ * Object representation of a json string.
+ *
+ * @author Stratadox
+ */
 interface Json
 {
     /**

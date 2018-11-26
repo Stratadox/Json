@@ -14,7 +14,10 @@ final class MutableJson implements Json
 {
     use JsonEncoding, JsonDecoding, PathValidation;
 
+    /** @var mixed The raw Json data */
     private $data;
+
+    /** @var string The encoded Json string */
     private $encoded;
 
     /** @throws InvalidJson */
