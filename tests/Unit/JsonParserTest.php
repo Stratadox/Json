@@ -56,7 +56,18 @@ class JsonParserTest extends TestCase
         );
     }
 
-    /** @before */
+    /**
+     * Resets the cache of the JsonParser. It would otherwise still work fine,
+     * but no new instances would be created, leading to a distorted code
+     * coverage metric when running tests that instantiate the parser without
+     * marking it as covered.
+     * This causes the interesting yet confusing effect where the coverage
+     * decreases when running extra tests, comparable to Giffen Goods in
+     * economics.
+     * @see https://en.wikipedia.org/wiki/Giffen_good
+     *
+     * @before
+     */
     public function resetCacheForCoverage(): void
     {
         $reflector = new ReflectionProperty(JsonParser::class, 'thatIs');
