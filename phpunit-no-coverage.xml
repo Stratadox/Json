@@ -12,8 +12,8 @@
         <testsuite name="Monkey">
             <directory suffix=".php">tests/Monkey</directory>
         </testsuite>
-        <testsuite name="Integration">
-            <directory suffix=".php">tests/Integration</directory>
+        <testsuite name="Feature">
+            <directory suffix=".php">tests/Feature</directory>
         </testsuite>
     </testsuites>
 

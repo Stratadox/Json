@@ -1,5 +1,6 @@
-<?php
-namespace Stratadox\Json\Test\Integration\Asset;
+<?php declare(strict_types=1);
+
+namespace Stratadox\Json\Test\Feature\Asset;
 
 use Stratadox\Json\Json;
 use Stratadox\Json\Parser;

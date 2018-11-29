@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Stratadox\Json\Test\Integration;
+namespace Stratadox\Json\Test\Feature;
 
 use PHPUnit\Framework\TestCase;
 use Stratadox\Json\JsonParser;
-use Stratadox\Json\Test\Integration\Asset\Signer;
+use Stratadox\Json\Test\Feature\Asset\Signer;
 
 /**
  * @coversNothing
